@@ -3,6 +3,7 @@
 }
 .wrapper {
     width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .main-nav li,
@@ -330,9 +331,7 @@ span {
     header {
         overflow: auto;
     }
-    .wrapper {
-        max-width: 1200px;
-    }
+  
     .main-nav li,
     .name {
         margin-top: 50px;
@@ -382,7 +381,7 @@ span {
         margin-top: -50px;
     }
     body {
-        width: 100%;
+        width: 100%;   
     }
     #home {
         margin-top: 40px;
@@ -452,6 +451,18 @@ span {
         text-align: right;
         margin-right: 15px;
         margin-left: -15px;
-        padding: 10px; 
+        padding-right: 72px; 
     }  
+}
+
+@media (min-width: 1200px) {
+    .footer-name {
+        text-align: left;
+        padding-left: 250px;
+    }  
+  .full {  
+        text-align: right;
+        padding-right: 170px;
+    
+   }  
 }
